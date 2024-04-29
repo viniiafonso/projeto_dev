@@ -16,6 +16,8 @@ export function Login() {
            alert("Preencha todos os campos!!!")
            return; 
         }
+
+        "teste"
         
         signInWithEmailAndPassword(auth, email, password)
         .then(() => {
