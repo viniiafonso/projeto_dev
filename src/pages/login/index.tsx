@@ -17,7 +17,7 @@ export function Login() {
            return; 
         }
 
-        "teste"
+        
         
         signInWithEmailAndPassword(auth, email, password)
         .then(() => {
